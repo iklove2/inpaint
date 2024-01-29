@@ -398,7 +398,6 @@ main {
     margin-right: auto;
     overflow-y: hidden;
     overflow-x: hidden;
-    margin-bottom: 150px;
     margin-top: 50px;
     flex-wrap: wrap;
     justify-content: center;
@@ -430,13 +429,14 @@ main {
 
 .main_why {
     background-color: #075762;
-    margin-bottom: ;
+    margin-bottom: 150px;
 }
 
 .main_content_why {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 54px;
 }
 
 .why_title {
@@ -483,6 +483,20 @@ main {
     font-size: 20px;
     margin-bottom: 5px;
     font-weight: bold;
+}
+
+.why_go_details {
+    color: #E8E8E8;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.why_go_details>summary {
+    color: #E8E8E8;
+}
+
+.why_go_details>summary:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 1000px) and (min-width: 740px) {
