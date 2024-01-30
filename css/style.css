@@ -499,6 +499,50 @@ main {
     cursor: pointer;
 }
 
+.director_speak {
+    margin-bottom: 150px;
+}
+
+.director_speak_content {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.director_speak_content>h2 {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    color: #2D363A;
+    padding-bottom: px;
+}
+
+.director_speak_content>p {
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    color: #2D363A;
+    padding: 110px 50px 33px 50px;
+}
+
+.director_speak_content>p::before {
+    position: absolute;
+    content: '';
+    display: block;
+    background-image: url(../pic/kavyki.svg);
+    width: 44px;
+    height: 35px;
+    top:47px;
+}
+
+.director_speak_content>img {
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    transform: rotate(180deg);
+}
+
 @media (max-width: 1000px) and (min-width: 740px) {
 
     .top>header {
