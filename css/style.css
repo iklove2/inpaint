@@ -533,7 +533,7 @@ main {
     background-image: url(../pic/kavyki.svg);
     width: 44px;
     height: 35px;
-    top:47px;
+    top: 47px;
 }
 
 .director_speak_content>img {
@@ -541,6 +541,53 @@ main {
     margin-left: auto;
     margin-right: 50px;
     transform: rotate(180deg);
+}
+
+.about_dir {
+    display: flex;
+    gap: 30px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about_dir_img {
+    max-width: 180px;
+}
+
+.about_dir_img>img {
+    max-width: 180px;
+}
+
+.about_dir>button {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px 90px 20px 90px;
+    color: white;
+    font-size: 14px;
+    min-width: 223px;
+    height: 60px;
+    border-radius: 89px;
+    background-color: #EC8003;
+    border-style: none;
+    box-shadow: 0 4px 4px rgb(0, 0, 0, 0.25);
+}
+
+.about_dir>article {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 218px;
+}
+
+.about_dir>article>h3 {
+    font-size: 32px;
+}
+
+.about_dir>article>p {
+    font-size: 20px;
 }
 
 @media (max-width: 1000px) and (min-width: 740px) {
@@ -784,6 +831,76 @@ main {
     .main_content_like>ul>li>article>p {
         font-size: 16px;
     }
+
+    .why_title {
+        font-size: 26px;
+        max-width: 480px;
+        color: white;
+        padding-top: 45px;
+        padding-bottom: 68px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .why_title::after {
+        display: none;
+    }
+
+    .main_content_why>article>ul {
+        column-count: 1;
+    }
+
+    .main_content_why>article>ul>li {
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about_dir {
+        display: block;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about_dir_img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .about_dir_img>img {
+        max-width: 180px;
+    }
+
+    .about_dir>button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about_dir>article {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .about_dir>article>h3 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .about_dir>article>p {
+        font-size: 20px;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 739px) {
@@ -988,4 +1105,73 @@ main {
     .title_like {
         font-size: 16px;
     }
+
+    .why_title {
+        font-size: 26px;
+        max-width: 345px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        padding-top: 45px;
+        padding-bottom: 68px;
+    }
+
+    .why_title::after {
+        display: none;
+    }
+
+    .main_content_why>article>ul {
+        column-count: 1;
+    }
+
+    .main_content_why>article>ul>li {
+        max-width: 345px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .about_dir {
+        display: block;
+        max-width: 345px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about_dir_img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .about_dir_img>img {
+        max-width: 180px;
+    }
+
+    .about_dir>button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about_dir>article {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .about_dir>article>h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about_dir>article>p {
+        font-size: 16px;
+        text-align: center;
+    }
+
 }
